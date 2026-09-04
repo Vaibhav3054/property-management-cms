@@ -9,7 +9,7 @@ export default config({
   },
   storage: process.env.NODE_ENV === 'production' ? {
     kind: 'github',
-    repo: 'YOUR_GITHUB_USERNAME/YOUR_REPO_NAME', // TODO: User needs to update this
+    repo: 'Vaibhav3054/property-management-cms',
   } : {
     kind: 'local',
   },
