@@ -16,5 +16,18 @@ function getHandler() {
   return handler;
 }
 
-export const GET = (req: any, ctx: any) => getHandler().GET(req, ctx);
-export const POST = (req: any, ctx: any) => getHandler().POST(req, ctx);
+export const GET = async (req: any, ctx: any) => {
+  try {
+    return await getHandler().GET(req, ctx);
+  } catch (e: any) {
+    return new Response(`Keystatic Route Error: ${e.message}\nStack: ${e.stack}`, { status: 500 });
+  }
+};
+
+export const POST = async (req: any, ctx: any) => {
+  try {
+    return await getHandler().POST(req, ctx);
+  } catch (e: any) {
+    return new Response(`Keystatic Route Error: ${e.message}\nStack: ${e.stack}`, { status: 500 });
+  }
+};
