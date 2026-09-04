@@ -67,7 +67,7 @@ export default async function PropertyDetailsPage(props: { params: Promise<{ slu
               <div className="relative h-[400px] md:h-[500px] bg-gray-100">
                 {property.images && property.images.length > 0 ? (
                   <Image 
-                    src={property.images[0]} 
+                    src={property.images[0]!} 
                     alt={property.title} 
                     fill 
                     className="object-cover"
@@ -82,7 +82,7 @@ export default async function PropertyDetailsPage(props: { params: Promise<{ slu
                 <div className="flex gap-2 p-4 overflow-x-auto bg-gray-50 border-t border-gray-200">
                   {property.images.map((img, i) => (
                     <div key={i} className="relative w-24 h-24 shrink-0 rounded-md overflow-hidden border-2 border-transparent hover:border-blue-500 cursor-pointer transition">
-                      <Image src={img} alt={`Thumbnail ${i+1}`} fill className="object-cover" />
+                      <Image src={img!} alt={`Thumbnail ${i+1}`} fill className="object-cover" />
                     </div>
                   ))}
                 </div>

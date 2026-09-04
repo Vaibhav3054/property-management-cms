@@ -88,7 +88,7 @@ export default async function PropertiesPage(
                     <div className="relative h-60 bg-gray-200 shrink-0">
                       {property.images && property.images.length > 0 ? (
                         <Image 
-                          src={property.images[0]} 
+                          src={property.images[0]!} 
                           alt={property.title || 'Property Image'} 
                           fill 
                           className="object-cover"

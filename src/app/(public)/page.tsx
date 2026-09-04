@@ -74,9 +74,9 @@ export default async function HomePage() {
                 <div key={property.slug} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-gray-100">
                   <div className="relative h-64 bg-gray-200">
                     {property.images && property.images.length > 0 ? (
-                      <Image 
-                        src={property.images[0]} 
-                        alt={property.title || 'Property Image'} 
+                        <Image 
+                          src={property.images[0]!} 
+                          alt={property.title || 'Property Image'} 
                         fill 
                         className="object-cover"
                       />
