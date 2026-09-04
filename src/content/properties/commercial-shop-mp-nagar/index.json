@@ -1,0 +1,25 @@
+{
+  "title": "Prime Commercial Shop in MP Nagar",
+  "propertyType": "commercial",
+  "listingType": "rent",
+  "price": "₹45,000/month",
+  "location": "mp-nagar",
+  "address": "Zone-1, MP Nagar, Bhopal",
+  "area": "400 sq.ft",
+  "bedrooms": 0,
+  "bathrooms": 1,
+  "parking": false,
+  "furnishing": "semi-furnished",
+  "amenities": [
+    "Main Road Facing",
+    "High Footfall",
+    "Glass Frontage"
+  ],
+  "images": [
+    "https://images.unsplash.com/photo-1582037928769-181f2644ff8c?auto=format&fit=crop&q=80"
+  ],
+  "googleMapsUrl": "https://maps.google.com",
+  "featured": true,
+  "status": "available",
+  "description": "Excellent opportunity to start or expand your business. Main road facing commercial shop available for rent in Zone-1, MP Nagar. High footfall area suitable for retail, clinic, or consulting office."
+}

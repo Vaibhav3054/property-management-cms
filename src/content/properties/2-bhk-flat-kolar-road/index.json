@@ -1,0 +1,25 @@
+{
+  "title": "Modern 2 BHK Flat Kolar Road",
+  "propertyType": "apartment",
+  "listingType": "rent",
+  "price": "₹15,000/month",
+  "location": "kolar-road",
+  "address": "Banjari, Kolar Road, Bhopal",
+  "area": "1100 sq.ft",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "parking": true,
+  "furnishing": "unfurnished",
+  "amenities": [
+    "Lift",
+    "Gated Society",
+    "Water Supply"
+  ],
+  "images": [
+    "https://images.unsplash.com/photo-1502672260266-1c1e52409818?auto=format&fit=crop&q=80"
+  ],
+  "googleMapsUrl": "https://maps.google.com",
+  "featured": false,
+  "status": "available",
+  "description": "Spacious 2 BHK flat available for rent on Kolar Road. Located in a secure gated society with 24x7 water supply and lift facility. Ideal for small families or working professionals."
+}

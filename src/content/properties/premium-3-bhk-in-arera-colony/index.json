@@ -1,0 +1,27 @@
+{
+  "title": "Premium 3 BHK in Arera Colony",
+  "propertyType": "apartment",
+  "listingType": "sale",
+  "price": "₹85 Lakhs",
+  "location": "arera-colony",
+  "address": "E-3, Arera Colony, Near Campion School",
+  "area": "1800 sq.ft",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "parking": true,
+  "furnishing": "semi-furnished",
+  "amenities": [
+    "Modular Kitchen",
+    "24/7 Security",
+    "Power Backup",
+    "Reserved Parking",
+    "Park Facing"
+  ],
+  "images": [
+    "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80"
+  ],
+  "googleMapsUrl": "https://maps.google.com",
+  "featured": true,
+  "status": "available",
+  "description": "Luxurious 3 BHK apartment available for sale in the prime location of Arera Colony. The property is well-ventilated, park-facing, and features a premium modular kitchen. Excellent connectivity to major schools and hospitals in Bhopal."
+}

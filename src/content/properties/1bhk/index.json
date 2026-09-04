@@ -1,0 +1,17 @@
+{
+  "title": "1bhk",
+  "propertyType": "house",
+  "listingType": "rent",
+  "price": "10000",
+  "location": "ayodhya-bypass",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "parking": true,
+  "furnishing": "unfurnished",
+  "amenities": [],
+  "images": [
+    "/images/properties/1bhk/images/0.png"
+  ],
+  "featured": false,
+  "status": "available"
+}
